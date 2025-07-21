@@ -39,10 +39,10 @@ spec:
           spec:
             description: FileInfoSpec defines the desired state of FileInfo.
             properties:
-              filePath:
+              folderPath:
+                description: Foo is an example field of FileInfo. Edit fileinfo_types.go
+                  to remove/update
                 type: string
-            required:
-            - filePath
             type: object
           status:
             description: FileInfoStatus defines the observed state of FileInfo.

@@ -29,8 +29,7 @@ type FileInfoSpec struct {
 	// Important: Run "make" to regenerate code after modifying this file
 
 	// Foo is an example field of FileInfo. Edit fileinfo_types.go to remove/update
-
-	FilePath string `json:"filePath"`
+	FolderPath string `json:"folderPath,omitempty"`
 }
 
 type FileDetails struct {
