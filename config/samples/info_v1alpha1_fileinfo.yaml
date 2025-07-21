@@ -1,0 +1,8 @@
+apiVersion: info.example.com/v1alpha1
+kind: FileInfo
+metadata:
+  name: fileinfo-sample
+spec:
+  filePath: /tmp/my-folder
+  
+  # TODO(user): Add fields here
